@@ -1,0 +1,61 @@
+[info] Updating {file:/home/pramod/Documents/Scala%20Tutorial/DockerTest/}dockertest...
+[debug] :: building artificial module descriptors from com.pagero#dockertest_2.12;0.1
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} (artifacts: )
+[debug] ::: dd: MergedDescriptors(MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.3 {compile=[default(compile)]}),dependency: org.scala-lang#scala-library;2.12.3 {test=[default(compile)]}) (artifacts: )
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-compiler/2.12.3_temp-resolve-c06cafe61c48aa1baa627a6b416bffbb42ac33e6/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.12.3_temp-resolve-6ea134dbe7fd91fad3c3aa466ff679e9b7ed1852/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library
+[debug] :: no conflict compile: org.scala-lang:scala-library
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library
+[debug] :: no conflict runtime: org.scala-lang:scala-library
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library
+[debug] :: no conflict test: org.scala-lang:scala-library
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library
+[debug] :: no conflict compile-internal: org.scala-lang:scala-library
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library
+[debug] :: no conflict runtime-internal: org.scala-lang:scala-library
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: org.scala-lang:scala-library
+[debug] :: no conflict test-internal: org.scala-lang:scala-library
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: merging module reports for scala-tool: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.12.3 ()
+[debug] ::: evicted 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[info] Done updating.
